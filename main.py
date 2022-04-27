@@ -1138,5 +1138,5 @@ async def unban(ctx, user):
   except Exception:
     await ctx.reply(f"<:cross_mark:954769615593046076> | Failed to unban {user}", mention_author=False)
 
-      
-client.run("OTU0NTk0NjU0MDM5NDcwMTQy.YjVZjQ.VVOihUV9gGxjT6B8a5XE1bO0Pu4")
+  token = "Your token"    
+client.run(token)
